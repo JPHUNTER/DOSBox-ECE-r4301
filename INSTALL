@@ -109,3 +109,9 @@ src/ints/bios_keyboard.cpp and go to line 30 and read there how to fix it.
 Build instructions for VC++6 
 Don't use VC++ 6: it creates faulty code in core_normal.cpp
 Later Visual Studio versions work fine (vs2003/.net up to vs2010)
+
+Build instructions for OSX
+Use homebrew to install all of the above aforementioned packages the execute the following:
+autoreconf -fi
+./configure
+make
